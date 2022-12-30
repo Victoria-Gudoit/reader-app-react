@@ -1,0 +1,56 @@
+.story {
+  display: flex;
+  align-items: center;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1px solid #000;
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  &__image {
+    display: block;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 50px 60px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__content {
+    aspect-ratio: 1/1;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    background-image: url(../../assets/img/story-decor.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__text {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 384px;
+
+    &:not(:last-child) {
+      padding-bottom: 12px;
+    }
+  }
+}
