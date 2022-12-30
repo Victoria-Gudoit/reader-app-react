@@ -1,0 +1,27 @@
+.wrapper {
+  &__content {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+
+    .ticker {
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      margin-top: -1px;
+      border-right: 1px solid var(--dark-color);
+      border-left: 1px solid var(--dark-color);
+      padding: 21px 0;
+    }
+
+    .ticker__icon {
+      margin: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

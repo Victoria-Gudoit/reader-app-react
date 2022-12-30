@@ -6,6 +6,8 @@ import { Header } from "./Header";
 import scss from "./app.module.scss";
 import { Hero } from "./Hero";
 import { Products } from "./products";
+import { Story } from "./Story";
+import { Ticker } from "./Ticker-bottom";
 
 export const App = () => {
   return (
@@ -13,6 +15,8 @@ export const App = () => {
       <Header />
       <Hero />
       <Products />
+      <Story />
+      <Ticker />
     </div>
   );
 };
